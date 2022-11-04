@@ -1,0 +1,143 @@
+
+body {
+    background-color: #dde1e6;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #466a8a;
+    color: #ffffff;
+}
+
+header h1 {
+    display:inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type:none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header nav ul li:hover {
+    background-color:#dde1e6;
+    color:#dde1e6;
+  }
+
+section img {
+    display: inline-block;
+    width: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main {
+    display: block;
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 10px;
+}
+
+.hn {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color:#466a8a;
+}
+
+p {
+    font-size: 16px;
+}
+
+.work-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.grid-container-item-padding {
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:black;   
+}
+
+.grid-container h2, h3, h4 {
+    border-right:solid 4px #466a8a;
+    text-align: right;
+    padding: 10px;
+}
+
+#first-work-item {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(151, 194, 228);  
+}
+
+.work-container a {
+    height: 100px;
+    border:solid 5px rgb(111, 206, 206);
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: rgb(174, 174, 166);  
+}
+
+section nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+    
+}
+
+section nav ul {
+    list-style-type:none;
+}
+
+section nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    float: right;
+}
+
+section nav ul li:hover {
+    background-color:#0d3567;
+    color:white;
+  }
+
+  @media screen and (max-width: 2000px) {
+
+    header {
+       color: #466a8a;
+    }
+ 
+    main {
+      background-color: #e6efea;
+    }
+    
+    section img {
+        display:none;
+      }
+      
+     header {
+      background: #e6efea;
+    }
+  }
